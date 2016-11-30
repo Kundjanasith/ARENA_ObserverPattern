@@ -1,4 +1,7 @@
-
+/**
+ * GameBoard is the concrete observable class which can notify all observers
+ * @author Kundjanasith Thonglek 5710545023
+ */
 public class GameBoard extends Subject {
 	private int state;	
 	public GameBoard(){
@@ -13,3 +16,4 @@ public class GameBoard extends Subject {
 		this.notifyAllObservers();
 	}
 }
+
